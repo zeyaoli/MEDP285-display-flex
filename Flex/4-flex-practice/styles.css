@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: auto; */
+}
+
+.read-more {
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
